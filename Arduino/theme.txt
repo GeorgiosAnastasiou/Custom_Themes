@@ -10,9 +10,10 @@
 
 # GUI - STATUS
 status.notice.fgcolor = #aaaaaa
-status.notice.bgcolor = #452d48 
+status.notice.bgcolor = #1e0017  
 #previous #21252B
 status.error.fgcolor = #FFFFFF
+#previous #FFFFFF
 status.error.bgcolor = #E06C75
 status.edit.fgcolor = #000000
 status.edit.bgcolor = #aaaaaa
@@ -21,7 +22,7 @@ status.font = SansSerif,plain,12
 # GUI - TABS
 # settings for the tabs at the top
 # (tab images are stored in the lib/theme folder)
-header.bgcolor = #1a1a1a 
+header.bgcolor = #1e0017 
 #previous #21252B
 header.text.selected.color = #ffffff
 header.text.unselected.color = #aaaaaa
@@ -30,32 +31,36 @@ header.text.font = SansSerif,plain,12
 # GUI - CONSOLE
 console.font = Consolas,plain,11
 console.font.macosx = Monaco,plain,10
-console.color = #420031 
+console.color = #16050e  
 #previous #282C34
 console.output.color = #aaaaaa
 console.error.color = #aaaaaa
 
 # GUI - BUTTONS
-buttons.bgcolor = #19000e
+buttons.bgcolor = #1e0017
 #previous #282C34
 buttons.status.font = SansSerif,plain,12
-buttons.status.color = #ffffff
+buttons.status.color = #bdf0e6
+#previous #ffffff
 
 # GUI - LINESTATUS
 linestatus.color = #aaaaaa
-linestatus.bgcolor = #452d48
-previous #21252B
+linestatus.bgcolor = #1e0017
+#previous #21252B
 
 # EDITOR - DETAILS
 
 # foreground and background colors
-editor.fgcolor = #ffffff
-editor.bgcolor = #000000
+editor.fgcolor = #FFFFFF
+#previous #ffffff
+editor.bgcolor = #000000  
+#previous #000000
 # prev color: #282C34
 
 # highlight for the current line
-editor.linehighlight.color= #1e0017
-#previous #2C313C
+editor.linehighlight.color= #200018 
+#previous1 #2C313C
+#previous2 #1e0017 
 # highlight for the current line
 editor.linehighlight=true
 
@@ -71,7 +76,8 @@ editor.selection.color = #2c001d
 #previous #404859
 
 # area that's not in use by the text (replaced with tildes)
-editor.invalid.style = #7e7e7e,bold
+editor.invalid.style = #230505,bold
+#previous #7e7e7e,bold
 
 # little pooties at the end of lines that show where they finish
 editor.eolmarkers = false
@@ -91,6 +97,7 @@ editor.data_type.style = #E06C75,bold
 # METHODS
 editor.keyword2.style = #E06C75,plain
 editor.function.style = #61AFEF,plain
+
 
 # STRUCTURES
 editor.keyword3.style = #C678DD,plain
